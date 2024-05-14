@@ -724,9 +724,7 @@ def autoLimbRiggerToolUI():
                                                  (separator03, 'left', 5), (separator03, 'right', 5),
                                                  (separator04, 'left', 5), (separator04, 'right', 5),
                                                  (scaleControlText, 'left', 5), (scaleControl, 'right', 5),
-                                                 (button, 'bottom', 5), (button, 'left', 5), (button, 'right', 5)
-                                                 ],
-                                                 
+                                                 (button, 'bottom', 5), (button, 'left', 5), (button, 'right', 5)], 
                                      attachControl=[(separator01, 'top', 5, limbMenu),
                                                     (fkCheckBox, 'top', 5, separator01),
                                                     (ikCheckBox, 'top', 5, separator01),
@@ -737,15 +735,10 @@ def autoLimbRiggerToolUI():
                                                     (scaleControlText, 'top', 5, separator03),
                                                     (scaleControl, 'left', 5, scaleControlText),
                                                     (separator04, 'top', 5, scaleControl),
-                                                    (button, 'top', 5, separator04),
-                                                   ],
-
+                                                    (button, 'top', 5, separator04),],
                                      attachPosition=[(fkCheckBox, 'left', 5, 10),
                                                      (ikCheckBox, 'right', 5, 90),
-                                                     (ikfkSwitchCheckBox, 'left', 5, 25)
-                                                    ]           
-                                                 
-                                                 )
+                                                     (ikfkSwitchCheckBox, 'left', 5, 25)])
 
     #Display window
     cmds.showWindow(window)
